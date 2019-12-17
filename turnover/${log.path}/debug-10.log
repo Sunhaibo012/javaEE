@@ -1,0 +1,21 @@
+${sys:local-ip} [DEBUG][2019-12-15 10:26:49][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+${sys:local-ip} [DEBUG][2019-12-15 10:26:49][Logger.java:49] - JDBC Connection [HikariProxyConnection@102798150 wrapping com.mysql.cj.jdbc.ConnectionImpl@52e51db6] will not be managed by Spring
+${sys:local-ip} [DEBUG][2019-12-15 10:26:49][BaseJdbcLogger.java:143] - ==>  Preparing: select * from tb_user where user_name = ? 
+${sys:local-ip} [DEBUG][2019-12-15 10:26:49][BaseJdbcLogger.java:143] - ==> Parameters: qerqw(String)
+${sys:local-ip} [DEBUG][2019-12-15 10:26:49][BaseJdbcLogger.java:143] - <==      Total: 0
+${sys:local-ip} [DEBUG][2019-12-15 10:26:49][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2155238a]
+${sys:local-ip} [DEBUG][2019-12-15 10:26:54][HikariPool.java:417] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+${sys:local-ip} [DEBUG][2019-12-15 10:26:56][Logger.java:49] - Creating a new SqlSession
+${sys:local-ip} [DEBUG][2019-12-15 10:26:56][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@443772ac] was not registered for synchronization because synchronization is not active
+${sys:local-ip} [DEBUG][2019-12-15 10:26:56][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+${sys:local-ip} [DEBUG][2019-12-15 10:26:56][Logger.java:49] - JDBC Connection [HikariProxyConnection@1257276506 wrapping com.mysql.cj.jdbc.ConnectionImpl@52e51db6] will not be managed by Spring
+${sys:local-ip} [DEBUG][2019-12-15 10:26:56][BaseJdbcLogger.java:143] - ==>  Preparing: select * from tb_user where user_name = ? 
+${sys:local-ip} [DEBUG][2019-12-15 10:26:56][BaseJdbcLogger.java:143] - ==> Parameters: (String)
+${sys:local-ip} [DEBUG][2019-12-15 10:26:56][BaseJdbcLogger.java:143] - <==      Total: 0
+${sys:local-ip} [DEBUG][2019-12-15 10:26:56][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@443772ac]
+${sys:local-ip} [DEBUG][2019-12-15 10:27:10][LogFormatUtils.java:91] - "ERROR" dispatch for GET "/error", parameters={}
+${sys:local-ip} [DEBUG][2019-12-15 10:27:10][AbstractHandlerMapping.java:412] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+${sys:local-ip} [DEBUG][2019-12-15 10:27:10][PropertySourcesPropertyResolver.java:115] - Found key 'spring.mvc.view.prefix' in PropertySource 'configurationProperties' with value of type String
+${sys:local-ip} [DEBUG][2019-12-15 10:27:10][PropertySourcesPropertyResolver.java:115] - Found key 'spring.mvc.view.suffix' in PropertySource 'configurationProperties' with value of type String
+${sys:local-ip} [DEBUG][2019-12-15 10:27:10][PropertySourcesPropertyResolver.java:115] - Found key 'spring.mvc.view.prefix' in PropertySource 'configurationProperties' with value of type String
+${sys:local-ip} [DEBUG][2019-12-15 10:27:10][PropertySourcesPropertyResolver.java:115] - Found key 'spring.mvc.view.suffix' in PropertySource 'configurationProperties' with value of type String

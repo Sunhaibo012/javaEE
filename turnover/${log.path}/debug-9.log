@@ -1,0 +1,23 @@
+${sys:local-ip} [DEBUG][2019-12-15 10:26:24][HikariPool.java:730] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e951e24
+${sys:local-ip} [DEBUG][2019-12-15 10:26:24][PropertySourcesPropertyResolver.java:115] - Found key 'local.server.port' in PropertySource 'server.ports' with value of type Integer
+${sys:local-ip} [DEBUG][2019-12-15 10:26:24][HikariPool.java:730] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f0f59f3
+${sys:local-ip} [DEBUG][2019-12-15 10:26:24][HikariPool.java:730] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b54d4c2
+${sys:local-ip} [DEBUG][2019-12-15 10:26:24][HikariPool.java:730] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b41224d
+${sys:local-ip} [DEBUG][2019-12-15 10:26:24][HikariPool.java:730] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30c4e9ee
+${sys:local-ip} [DEBUG][2019-12-15 10:26:24][HikariPool.java:730] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f4304aa
+${sys:local-ip} [DEBUG][2019-12-15 10:26:24][HikariPool.java:730] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71f086f3
+${sys:local-ip} [DEBUG][2019-12-15 10:26:24][HikariPool.java:417] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+${sys:local-ip} [DEBUG][2019-12-15 10:26:39][LogFormatUtils.java:91] - GET "/loginPage", parameters={}
+${sys:local-ip} [DEBUG][2019-12-15 10:26:39][AbstractHandlerMapping.java:412] - Mapped to com.example.nenu.controller.AdminController#login()
+${sys:local-ip} [DEBUG][2019-12-15 10:26:39][ContentNegotiatingViewResolver.java:348] - Selected 'text/html' given [text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8]
+${sys:local-ip} [DEBUG][2019-12-15 10:26:39][AbstractView.java:310] - View name 'login', model {}
+${sys:local-ip} [DEBUG][2019-12-15 10:26:39][InternalResourceView.java:169] - Forwarding to [/jsp/login.jsp]
+${sys:local-ip} [DEBUG][2019-12-15 10:26:40][FrameworkServlet.java:1131] - Completed 200 OK
+${sys:local-ip} [DEBUG][2019-12-15 10:26:42][LogFormatUtils.java:91] - GET "/userRegister", parameters={}
+${sys:local-ip} [DEBUG][2019-12-15 10:26:42][AbstractHandlerMapping.java:412] - Mapped to com.example.nenu.controller.UserController#register()
+${sys:local-ip} [DEBUG][2019-12-15 10:26:42][ContentNegotiatingViewResolver.java:348] - Selected 'text/html' given [text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8]
+${sys:local-ip} [DEBUG][2019-12-15 10:26:42][AbstractView.java:310] - View name 'userRegister', model {}
+${sys:local-ip} [DEBUG][2019-12-15 10:26:42][InternalResourceView.java:169] - Forwarding to [/jsp/userRegister.jsp]
+${sys:local-ip} [DEBUG][2019-12-15 10:26:42][FrameworkServlet.java:1131] - Completed 200 OK
+${sys:local-ip} [DEBUG][2019-12-15 10:26:49][Logger.java:49] - Creating a new SqlSession
+${sys:local-ip} [DEBUG][2019-12-15 10:26:49][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2155238a] was not registered for synchronization because synchronization is not active

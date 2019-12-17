@@ -1,0 +1,27 @@
+${sys:local-ip} [INFO ][2019-12-15 10:26:22][StartupListener.java:17] - get local ip is 10.1.1.193
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][PropertySourcesPropertyResolver.java:115] - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+${sys:local-ip} [INFO ][2019-12-15 10:26:23][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8088"]
+${sys:local-ip} [INFO ][2019-12-15 10:26:23][TomcatWebServer.java:204] - Tomcat started on port(s): 8088 (http) with context path ''
+${sys:local-ip} [INFO ][2019-12-15 10:26:23][StartupInfoLogger.java:61] - Started TurnoverApplication in 6.446 seconds (JVM running for 9.158)
+${sys:local-ip} [INFO ][2019-12-15 10:26:23][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+${sys:local-ip} [INFO ][2019-12-15 10:26:23][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][DispatcherServlet.java:526] - Detected StandardServletMultipartResolver
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1020] - HikariPool-1 - configuration:
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - allowPoolSuspension.............false
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - autoCommit......................true
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - catalog.........................none
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - connectionInitSql...............none
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - connectionTestQuery.............none
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - connectionTimeout...............30000
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - dataSource......................none
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - dataSourceClassName.............none
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - dataSourceJNDI..................none
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - dataSourceProperties............{password=<masked>}
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - driverClassName................."com.mysql.cj.jdbc.Driver"
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - healthCheckProperties...........{}
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - healthCheckRegistry.............none
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - idleTimeout.....................600000
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - initializationFailTimeout.......1
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - isolateInternalQueries..........false
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - jdbcUrl.........................jdbc:mysql://localhost:3306/people?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8

@@ -1,0 +1,14 @@
+[ERROR][2019-12-15 09:37:35][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'myFilter' could not be registered. A bean with that name has already been defined in file [C:\Users\yellow\IdeaProjects\turnover\target\classes\com\example\nenu\filter\MyFilter.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+

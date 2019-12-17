@@ -1,0 +1,26 @@
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - leakDetectionThreshold..........0
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][FrameworkServlet.java:542] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - maxLifetime.....................1800000
+${sys:local-ip} [INFO ][2019-12-15 10:26:23][FrameworkServlet.java:547] - Completed initialization in 52 ms
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - maximumPoolSize.................10
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - metricRegistry..................none
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - metricsTrackerFactory...........com.zaxxer.hikari.metrics.micrometer.MicrometerMetricsTrackerFactory@1c109dc
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - minimumIdle.....................10
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - password........................<masked>
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - poolName........................"HikariPool-1"
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - readOnly........................false
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - registerMbeans..................false
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - scheduledExecutor...............none
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - schema..........................none
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - threadFactory...................internal
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - transactionIsolation............default
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - username........................"root"
+${sys:local-ip} [DEBUG][2019-12-15 10:26:23][HikariConfig.java:1052] - validationTimeout...............5000
+${sys:local-ip} [INFO ][2019-12-15 10:26:23][HikariDataSource.java:110] - HikariPool-1 - Starting...
+${sys:local-ip} [DEBUG][2019-12-15 10:26:24][HikariPool.java:566] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52e51db6
+${sys:local-ip} [INFO ][2019-12-15 10:26:24][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+${sys:local-ip} [DEBUG][2019-12-15 10:26:24][JdbcTemplate.java:427] - Executing SQL query [/* ping */ SELECT 1]
+${sys:local-ip} [DEBUG][2019-12-15 10:26:24][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+${sys:local-ip} [DEBUG][2019-12-15 10:26:24][HikariPool.java:417] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+${sys:local-ip} [DEBUG][2019-12-15 10:26:24][HikariPool.java:730] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e1dac87
+${sys:local-ip} [DEBUG][2019-12-15 10:26:24][HikariPool.java:730] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f20a6bc

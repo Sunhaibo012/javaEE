@@ -1,0 +1,325 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.head {
+	width: 100%;
+	height: 110px;
+	display: flex;
+	background-color: rgb(35 38 46);
+}
+
+.logo {
+	order: -1;
+	width: 15%;
+}
+
+.logo>img {
+	margin-left: 30px;
+}
+
+.position {
+	order: 0;
+	width: 70%;
+}
+
+.adminName {
+	order: 1;
+	height: 40px;
+}
+
+.touxiang {
+	width: 60px;
+	height: 61px;
+}
+
+.touxiang>img {
+	width: 100%;
+	height: 100%;
+	border-radius: 42px;
+}
+
+.adminName .other>ul {
+	margin-top: 21px;
+	list-style: none;
+}
+
+.adminName .other>ul>li>img {
+	margin-top: -27px;
+	margin-left: -6px;
+}
+
+.adminName .other>ul>li>ul {
+	display: none;
+	list-style: none;
+	margin-top: -7px;
+}
+
+.adminName .other>ul>li:hover ul {
+	display: block;
+}
+
+.adminName .other>ul>li>ul>li {
+	background-color: rgb(0, 0, 0);
+	padding: 12px;
+	color: #ccc;
+	font-size: 14px;
+}
+
+.adminName .other>ul>li>ul>li:hover {
+	color: white;
+	background-color: rgb(50 50 50);
+}
+
+.adminName .other>ul>li>ul>li:hover a {
+	color: white;
+}
+
+.adminName .other>ul>li>ul>li>img {
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-top: 4px;
+	margin-left: 6px;
+}
+
+.adminName .other>ul>li>ul>li>a {
+	padding-left: 6px;
+	color: #ccc;
+	text-decoration: none;
+}
+
+.main {
+	width: 100%;
+	height: 600px;
+}
+
+.left {
+	width: 256px;
+	height: 600px;
+	float: left;
+	background-color: rgb(57 61 73);
+}
+
+.information {
+	margin: 40px auto;
+}
+
+.information>img {
+	width: 90px;
+	height: 90px;
+	border-radius: 70px;
+	border: 4px solid rgb(68 87 107);
+	margin: auto;
+	display: block;
+}
+
+.adminId {
+	color: white;
+	margin-top: 15px;
+	display: block;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.adminId:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.operate {
+	width: 100%；
+}
+
+.menu {
+	width: 100%;
+	list-style: none;
+}
+
+.menu>li {
+	width: 100%;
+	text-align: center;
+	background-color: rgb(0 150 136);
+
+}
+
+.menu>li>a {
+	color: white;
+	padding: 23px;
+	color: #ccc;
+	display: block;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+
+.right {
+	width: calc(100% - 256px);
+	float: right;
+	border-top: 4px solid rgb(0 150 136);
+}
+
+.function {
+	padding-top: 18px;
+}
+
+.function>input {
+	width: 194px;
+	display: inline;
+	margin-left: 22px;
+}
+
+.function>button {
+	background-color: rgb(0 150 136);
+	border-color: #0c9365;
+	margin-left: 15px;
+}
+
+.function>button:hover {
+	background-color: #3c8b70;
+	border-color: #3c8b70;
+}
+
+.function>button:active {
+	background-color: #3c8b70;
+	border-color: #3c8b70;
+}
+
+.function>button:active:focus {
+	background-color: #3c8b70;
+	border-color: #3c8b70;
+}
+
+.function>button:focus {
+	background-color: #3c8b70;
+	border-color: #3c8b70;
+}
+
+.line {
+	width: auto;
+	margin: 20px auto;
+}
+
+table {
+	margin-right: auto;
+	margin-left: auto;
+	table-layout: fixed;
+}
+
+table th {
+	text-align: center;
+}
+
+table td {
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.btn-active {
+	background-color: rgb(0 150 136);
+	border-color: #0c9365;
+	margin-left: 15px;
+	color: white;
+}
+
+.btn-active :hover {
+	background-color: #3c8b70;
+	border-color: #3c8b70;
+	color: white;
+}
+
+.btn-active :active {
+	background-color: #3c8b70;
+	border-color: #3c8b70;
+	color: white;
+}
+
+.btn-active :active:focus {
+	background-color: #3c8b70;
+	border-color: #3c8b70;
+	color: white;
+}
+
+.btn-active :focus {
+	background-color: #3c8b70;
+	border-color: #3c8b70;
+	color: white;
+}
+
+.number {
+	font-size: 14px;
+	color: #7b7b7b;
+	margin-left: 23px;
+}
+
+.pages {
+	margin: 30px auto;
+	text-align: center;
+}
+
+.input-group {
+	margin: 20px auto;
+	width: 68%;
+}
+
+.btn-secondary {
+	background-color: #3c8b70;
+	border-color: #3c8b70;
+	color: white;
+}
+
+.menu li:hover {
+	background-color: rgb(0 150 136);
+	color: white;
+}
+
+.menu li:hover a {
+	color: white;
+}
+
+
+.welcome {
+	display: flex;
+	padding-top: 12px;
+}
+
+#canvas {
+	width: 180px;
+	margin-top:28px;
+}
+
+.date {
+	order: -1;
+	margin-left: 21px;
+}
+
+.weather {
+	order: 0;
+	float: right;
+	margin-left: 11px;
+	height:25px;
+}
+frame{
+	height: 25px;
+}
+.coushu {
+	order: 1;
+}
+
+.wwords {
+	width: 100%;
+}
+
+.wwords>p {
+	font-size: 40px;
+	margin-left: 10%;
+	margin-top: 26px;
+	font-weight: 200;
+}
+.page1{
+	display:block;
+}
